@@ -1,0 +1,60 @@
+.sidebar {
+  height: 100vh;
+  padding: 20px;
+  transition: all 0.8s ease;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #ddd;
+  font-family: sans-serif;
+}
+
+
+.open {
+  width: 250px;
+}
+.closed {
+  width: 80px;
+}
+
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark {
+  background-color: #121212;
+  color: #ffffff;
+  border-right: 1px solid #333;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.active {
+  background-color: #c2185b;
+  color: white;
+}
+
