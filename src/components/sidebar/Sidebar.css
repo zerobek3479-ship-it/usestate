@@ -1,14 +1,15 @@
 .sidebar {
-  height: 100vh;
+ height: 800px;
+  width: 450px;
   padding: 20px;
-  transition: all 0.8s ease;
+  transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
   border-right: 1px solid #ddd;
   font-family: sans-serif;
 }
 
-
+/* Sidebar kengligi */
 .open {
   width: 250px;
 }
@@ -16,7 +17,7 @@
   width: 80px;
 }
 
-
+/* Light/Dark Mode ranglari */
 .light {
   background-color: #ffffff;
   color: #000000;
@@ -43,6 +44,7 @@
   font-weight: bold;
 }
 
+/* Menu elementlari */
 .menu-item {
   display: flex;
   align-items: center;
@@ -53,8 +55,11 @@
   margin-bottom: 5px;
 }
 
-.active {
+.menu-item.active {
   background-color: #c2185b;
   color: white;
 }
 
+.menu-item:hover:not(.active) {
+  background-color: rgba(128, 128, 128, 0.1);
+}

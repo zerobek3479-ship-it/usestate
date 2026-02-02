@@ -2,8 +2,8 @@ import { useState } from 'react';
 import './Sidebar.css';
 
 const Sidebar = () => {
-  const [isOpen, setIsOpen] = useState(true);
-  const [isDark, setIsDark] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
+    const [isDark, setIsDark] = useState(false);
 
   return (
     <div className={`sidebar ${isOpen ? 'open' : 'closed'} ${isDark ? 'dark' : 'light'}`}>
